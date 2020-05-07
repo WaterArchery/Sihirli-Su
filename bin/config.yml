@@ -1,0 +1,69 @@
+SihirliSu:
+  Ayarlar:
+    #Mesajların önünde gözükecek olan Prefix
+    Prefix: '&8[&6EtnaMC&8]'
+    #Oyuncuya gidecek olan kazanma mesajı
+    # %odul% - %suIsmi% kullanabilirsiniz
+    KazanmaMesaji: '&b%suIsmi% &aisimli suyu içerek &c%odul%TL &akazandın!'
+    #Oyuncuya gidecek olan kaybetme mesajı
+    # %suIsmi% kullanabilirsiniz
+    KaybetmeMesaji: '&b%suIsmi% &aisimli sihirli su senin için pek sihirli olmadı.'
+    #Sihirli su marketinin ismi
+    MarketIsmi: '&cSihirli Su Marketi'
+    #Sihirli suyu alınca gidecek olan mesaj
+    # %suIsmi% - %fiyat% kullanabilirsiniz
+    AlmaMesaji: '&b%suIsmi% &aisimli Sihirli Su &c%fiyat%TL &akarşılığı satın alındı'
+    #Oyuncunun parası yeterli değilse gidecek olan mesaj
+    YetersizPara: '&cBu sihirli suyu almaya yeterli paran yok!'
+    #Eğer Sihirli Suda KazanincaHerkeseMesaj özelliği true ise gidecek olan mesaj
+    HerkeseMesaj: ' &a%player% &b%suIsmi% &6isimli sihirli suyu içerek &c%odul%TL &6kazandı!'
+  #Su ayarları bunu değiştirmeyin
+  Sular:
+    #Su ismi /sihirlisu al komutuyla alıncak olan su
+    cesme:
+      #Oyunda gözükecek olan isim
+      Su_Ismi: '&bÇeşme Suyu &8(&c500 TL&8)'
+      #Sihirli Suyun fiyatı
+      Fiyat: 500
+      #Parayı 2ye katlama Sansı
+      Sans: 45
+      #Kazanınca herkese mesaj gitsin mi?
+      KazanincaHerkeseMesaj: false
+      #Kaybedince slow ve bulantı verir (Kısa süreli)
+      Effektler: true
+      #Sihirli Suyun Lore kısmı
+      # %fiyat% - %sans% - %ödül% kullanabilirsiniz
+      Lore:
+      - ''
+      - '&7Sihirli sudan içecek kadar cesur musun ?'
+      - '&7Bu sihirli su sana &a%ödül%TL &7kazandırabilir.'
+      - ''
+      - '&7Fiyat: &a%fiyat%TL'
+      - '&7Sans: &a%&a%Sans%'
+    bira:
+      Su_Ismi: '&bBira &8(&c2000 TL&8)'
+      Fiyat: 2000
+      Sans: 45
+      KazanincaHerkeseMesaj: false
+      Effektler: true
+      Lore:
+      - ''
+      - '&7Sihirli sudan içecek kadar cesur musun ?'
+      - '&7Bu sihirli su sana &a%ödül%TL &7kazandırabilir.'
+      - ''
+      - '&7Fiyat: &a%fiyat%TL'
+      - '&7Sans: &a%&a%Sans%'
+    sarap:
+      Su_Ismi: '&bŞarap &8(&c10000 TL&8)'
+      Fiyat: 10000
+      Sans: 45
+      KazanincaHerkeseMesaj: true
+      Effektler: true
+      Lore:
+      - ''
+      - '&7Sihirli sudan içecek kadar cesur musun ?'
+      - '&7Bu sihirli su sana &a%ödül%TL &7kazandırabilir.'
+      - ''
+      - '&7Fiyat: &a%fiyat%TL'
+      - '&7Sans: &a%&a%Sans%'
+

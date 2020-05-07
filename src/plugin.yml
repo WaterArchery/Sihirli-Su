@@ -1,0 +1,9 @@
+name: SihirliSu
+author: WaterArchery
+version: 1.0
+main: etnamc.sihirlisu.main.main
+description: Sihirli Su Plugini
+softdepend: [Vault]
+commands:
+  sihirlisu:
+    description: Temel Komut
